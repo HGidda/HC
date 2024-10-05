@@ -1,0 +1,15 @@
+/project-folder
+    /html
+        index.html
+        shop.html
+        cart.html
+        contact.html
+    /css
+        style.css
+    /js
+        script.js
+    /images
+        tshirt.jpg
+        jeans.jpg
+        jacket.jpg
+        sneakers.jpg

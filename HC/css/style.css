@@ -1,0 +1,201 @@
+/* Reset some basic elements */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f5f5f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2em;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 50px 0;
+}
+
+.hero h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero .btn {
+    background-color: #fff;
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    font-size: 1.2em;
+    border-radius: 5px;
+}
+
+.hero .btn:hover {
+    background-color: #ccc;
+}
+
+/* Product section */
+.products {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+.products h2 {
+    text-align: center;
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+.product-card {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 20px;
+    width: calc(50% - 40px);
+    display: inline-block;
+    vertical-align: top;
+}
+
+.product-card img {
+    max-width: 100%;
+    height: auto;
+}
+
+.product-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.product-card p {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.product-card button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.product-card button:hover {
+    background-color: #555;
+}
+
+/* Cart section */
+.cart {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.cart h2 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+#cart-items {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+.cart-item h4 {
+    font-size: 1.2em;
+}
+
+.cart-item p {
+    font-size: 1.2em;
+}
+
+#total-price {
+    font-size: 1.5em;
+    margin: 20px 0;
+}
+
+#clear-cart {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+#clear-cart:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+/* Style for Checkout button */
+.checkout-btn {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    margin-left: 10px;
+}
+
+.checkout-btn:hover {
+    background-color: #218838;
+}
